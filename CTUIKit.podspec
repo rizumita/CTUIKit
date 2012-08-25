@@ -26,6 +26,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.author       = "Ryoichi Izumita"
   s.source       = { :git => "https://github.com/rizumita/CTUIKit.git", :tag => "0.0.1" }
   s.platform     = :ios
-  s.source_files = 'CTUIKit', 'CTUIKit/**/*.{h,m}'
+  s.source_files = 'CTUIKit/**/*.{h,m}'
   s.requires_arc = true
 end

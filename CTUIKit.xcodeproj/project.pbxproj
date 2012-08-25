@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6ADDD2EA15E972F400E2E611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2E915E972F400E2E611 /* Foundation.framework */; };
-		6ADDD2F015E972F400E2E611 /* CTUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD2EF15E972F400E2E611 /* CTUIKit.m */; };
 		6ADDD2F815E972F400E2E611 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2F715E972F400E2E611 /* SenTestingKit.framework */; };
 		6ADDD2FA15E972F400E2E611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2F915E972F400E2E611 /* UIKit.framework */; };
 		6ADDD2FB15E972F400E2E611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2E915E972F400E2E611 /* Foundation.framework */; };
@@ -43,8 +42,6 @@
 		6ADDD2E615E972F400E2E611 /* libCTUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADDD2E915E972F400E2E611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6ADDD2ED15E972F400E2E611 /* CTUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTUIKit-Prefix.pch"; sourceTree = "<group>"; };
-		6ADDD2EE15E972F400E2E611 /* CTUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUIKit.h; sourceTree = "<group>"; };
-		6ADDD2EF15E972F400E2E611 /* CTUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUIKit.m; sourceTree = "<group>"; };
 		6ADDD2F615E972F400E2E611 /* CTUIKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTUIKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADDD2F715E972F400E2E611 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6ADDD2F915E972F400E2E611 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -135,8 +132,6 @@
 		6ADDD2EB15E972F400E2E611 /* CTUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				6ADDD2EE15E972F400E2E611 /* CTUIKit.h */,
-				6ADDD2EF15E972F400E2E611 /* CTUIKit.m */,
 				6ADDD2EC15E972F400E2E611 /* Supporting Files */,
 				6ADDD32915E9735300E2E611 /* CTNetworkActivityManager.h */,
 				6ADDD32A15E9735300E2E611 /* CTNetworkActivityManager.m */,
@@ -330,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADDD2F015E972F400E2E611 /* CTUIKit.m in Sources */,
 				6ADDD32C15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +529,7 @@
 				6ADDD30C15E972F400E2E611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADDD30D15E972F400E2E611 /* Build configuration list for PBXNativeTarget "CTUIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +538,7 @@
 				6ADDD30F15E972F400E2E611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADDD32615E9733C00E2E611 /* Build configuration list for PBXNativeTarget "CTUIKitSample" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +547,7 @@
 				6ADDD32815E9733C00E2E611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
