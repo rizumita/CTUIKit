@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ADDD2EA15E972F400E2E611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2E915E972F400E2E611 /* Foundation.framework */; };
+		6ADDD2F015E972F400E2E611 /* CTUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD2EF15E972F400E2E611 /* CTUIKit.m */; };
+		6ADDD2F815E972F400E2E611 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2F715E972F400E2E611 /* SenTestingKit.framework */; };
+		6ADDD2FA15E972F400E2E611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2F915E972F400E2E611 /* UIKit.framework */; };
+		6ADDD2FB15E972F400E2E611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2E915E972F400E2E611 /* Foundation.framework */; };
+		6ADDD2FE15E972F400E2E611 /* libCTUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2E615E972F400E2E611 /* libCTUIKit.a */; };
+		6ADDD30415E972F400E2E611 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDD30215E972F400E2E611 /* InfoPlist.strings */; };
+		6ADDD30715E972F400E2E611 /* CTUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD30615E972F400E2E611 /* CTUIKitTests.m */; };
+		6ADDD31615E9733C00E2E611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2F915E972F400E2E611 /* UIKit.framework */; };
+		6ADDD31715E9733C00E2E611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD2E915E972F400E2E611 /* Foundation.framework */; };
+		6ADDD31915E9733C00E2E611 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDD31815E9733C00E2E611 /* CoreGraphics.framework */; };
+		6ADDD31F15E9733C00E2E611 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDD31D15E9733C00E2E611 /* InfoPlist.strings */; };
+		6ADDD32115E9733C00E2E611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD32015E9733C00E2E611 /* main.m */; };
+		6ADDD32515E9733C00E2E611 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD32415E9733C00E2E611 /* CTAppDelegate.m */; };
+		6ADDD32B15E9735300E2E611 /* CTNetworkActivityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADDD32915E9735300E2E611 /* CTNetworkActivityManager.h */; };
+		6ADDD32C15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD32A15E9735300E2E611 /* CTNetworkActivityManager.m */; };
+		6ADDD32D15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD32A15E9735300E2E611 /* CTNetworkActivityManager.m */; };
+		6ADDD32E15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD32A15E9735300E2E611 /* CTNetworkActivityManager.m */; };
+		6ADDD33015E9764700E2E611 /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDD32F15E9764700E2E611 /* SampleStoryboard.storyboard */; };
+		6ADDD33315E976E100E2E611 /* CTSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD33215E976E100E2E611 /* CTSampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ADDD2FC15E972F400E2E611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDD2DD15E972F400E2E611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDD2E515E972F400E2E611;
+			remoteInfo = CTUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ADDD2E615E972F400E2E611 /* libCTUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDD2E915E972F400E2E611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ADDD2ED15E972F400E2E611 /* CTUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		6ADDD2EE15E972F400E2E611 /* CTUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUIKit.h; sourceTree = "<group>"; };
+		6ADDD2EF15E972F400E2E611 /* CTUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUIKit.m; sourceTree = "<group>"; };
+		6ADDD2F615E972F400E2E611 /* CTUIKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTUIKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDD2F715E972F400E2E611 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6ADDD2F915E972F400E2E611 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6ADDD30115E972F400E2E611 /* CTUIKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTUIKitTests-Info.plist"; sourceTree = "<group>"; };
+		6ADDD30315E972F400E2E611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ADDD30515E972F400E2E611 /* CTUIKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUIKitTests.h; sourceTree = "<group>"; };
+		6ADDD30615E972F400E2E611 /* CTUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUIKitTests.m; sourceTree = "<group>"; };
+		6ADDD31415E9733C00E2E611 /* CTUIKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTUIKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDD31815E9733C00E2E611 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ADDD31C15E9733C00E2E611 /* CTUIKitSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTUIKitSample-Info.plist"; sourceTree = "<group>"; };
+		6ADDD31E15E9733C00E2E611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ADDD32015E9733C00E2E611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ADDD32215E9733C00E2E611 /* CTUIKitSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTUIKitSample-Prefix.pch"; sourceTree = "<group>"; };
+		6ADDD32315E9733C00E2E611 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		6ADDD32415E9733C00E2E611 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		6ADDD32915E9735300E2E611 /* CTNetworkActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTNetworkActivityManager.h; sourceTree = "<group>"; };
+		6ADDD32A15E9735300E2E611 /* CTNetworkActivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTNetworkActivityManager.m; sourceTree = "<group>"; };
+		6ADDD32F15E9764700E2E611 /* SampleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleStoryboard.storyboard; sourceTree = "<group>"; };
+		6ADDD33115E976E100E2E611 /* CTSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSampleViewController.h; sourceTree = "<group>"; };
+		6ADDD33215E976E100E2E611 /* CTSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSampleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADDD2E315E972F400E2E611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD2EA15E972F400E2E611 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDD2F215E972F400E2E611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD2F815E972F400E2E611 /* SenTestingKit.framework in Frameworks */,
+				6ADDD2FA15E972F400E2E611 /* UIKit.framework in Frameworks */,
+				6ADDD2FB15E972F400E2E611 /* Foundation.framework in Frameworks */,
+				6ADDD2FE15E972F400E2E611 /* libCTUIKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDD31115E9733C00E2E611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD31615E9733C00E2E611 /* UIKit.framework in Frameworks */,
+				6ADDD31715E9733C00E2E611 /* Foundation.framework in Frameworks */,
+				6ADDD31915E9733C00E2E611 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ADDD2DB15E972F400E2E611 = {
+			isa = PBXGroup;
+			children = (
+				6ADDD2EB15E972F400E2E611 /* CTUIKit */,
+				6ADDD2FF15E972F400E2E611 /* CTUIKitTests */,
+				6ADDD31A15E9733C00E2E611 /* CTUIKitSample */,
+				6ADDD2E815E972F400E2E611 /* Frameworks */,
+				6ADDD2E715E972F400E2E611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADDD2E715E972F400E2E611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD2E615E972F400E2E611 /* libCTUIKit.a */,
+				6ADDD2F615E972F400E2E611 /* CTUIKitTests.octest */,
+				6ADDD31415E9733C00E2E611 /* CTUIKitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ADDD2E815E972F400E2E611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD2E915E972F400E2E611 /* Foundation.framework */,
+				6ADDD2F715E972F400E2E611 /* SenTestingKit.framework */,
+				6ADDD2F915E972F400E2E611 /* UIKit.framework */,
+				6ADDD31815E9733C00E2E611 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ADDD2EB15E972F400E2E611 /* CTUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD2EE15E972F400E2E611 /* CTUIKit.h */,
+				6ADDD2EF15E972F400E2E611 /* CTUIKit.m */,
+				6ADDD2EC15E972F400E2E611 /* Supporting Files */,
+				6ADDD32915E9735300E2E611 /* CTNetworkActivityManager.h */,
+				6ADDD32A15E9735300E2E611 /* CTNetworkActivityManager.m */,
+			);
+			path = CTUIKit;
+			sourceTree = "<group>";
+		};
+		6ADDD2EC15E972F400E2E611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD2ED15E972F400E2E611 /* CTUIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDD2FF15E972F400E2E611 /* CTUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD30515E972F400E2E611 /* CTUIKitTests.h */,
+				6ADDD30615E972F400E2E611 /* CTUIKitTests.m */,
+				6ADDD30015E972F400E2E611 /* Supporting Files */,
+			);
+			path = CTUIKitTests;
+			sourceTree = "<group>";
+		};
+		6ADDD30015E972F400E2E611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD30115E972F400E2E611 /* CTUIKitTests-Info.plist */,
+				6ADDD30215E972F400E2E611 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDD31A15E9733C00E2E611 /* CTUIKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD32315E9733C00E2E611 /* CTAppDelegate.h */,
+				6ADDD32415E9733C00E2E611 /* CTAppDelegate.m */,
+				6ADDD31B15E9733C00E2E611 /* Supporting Files */,
+				6ADDD32F15E9764700E2E611 /* SampleStoryboard.storyboard */,
+				6ADDD33115E976E100E2E611 /* CTSampleViewController.h */,
+				6ADDD33215E976E100E2E611 /* CTSampleViewController.m */,
+			);
+			path = CTUIKitSample;
+			sourceTree = "<group>";
+		};
+		6ADDD31B15E9733C00E2E611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDD31C15E9733C00E2E611 /* CTUIKitSample-Info.plist */,
+				6ADDD31D15E9733C00E2E611 /* InfoPlist.strings */,
+				6ADDD32015E9733C00E2E611 /* main.m */,
+				6ADDD32215E9733C00E2E611 /* CTUIKitSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6ADDD2E415E972F400E2E611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD32B15E9735300E2E611 /* CTNetworkActivityManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ADDD2E515E972F400E2E611 /* CTUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDD30A15E972F400E2E611 /* Build configuration list for PBXNativeTarget "CTUIKit" */;
+			buildPhases = (
+				6ADDD2E215E972F400E2E611 /* Sources */,
+				6ADDD2E315E972F400E2E611 /* Frameworks */,
+				6ADDD2E415E972F400E2E611 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTUIKit;
+			productName = CTUIKit;
+			productReference = 6ADDD2E615E972F400E2E611 /* libCTUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6ADDD2F515E972F400E2E611 /* CTUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDD30D15E972F400E2E611 /* Build configuration list for PBXNativeTarget "CTUIKitTests" */;
+			buildPhases = (
+				6ADDD2F115E972F400E2E611 /* Sources */,
+				6ADDD2F215E972F400E2E611 /* Frameworks */,
+				6ADDD2F315E972F400E2E611 /* Resources */,
+				6ADDD2F415E972F400E2E611 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADDD2FD15E972F400E2E611 /* PBXTargetDependency */,
+			);
+			name = CTUIKitTests;
+			productName = CTUIKitTests;
+			productReference = 6ADDD2F615E972F400E2E611 /* CTUIKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6ADDD31315E9733C00E2E611 /* CTUIKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDD32615E9733C00E2E611 /* Build configuration list for PBXNativeTarget "CTUIKitSample" */;
+			buildPhases = (
+				6ADDD31015E9733C00E2E611 /* Sources */,
+				6ADDD31115E9733C00E2E611 /* Frameworks */,
+				6ADDD31215E9733C00E2E611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTUIKitSample;
+			productName = CTUIKitSample;
+			productReference = 6ADDD31415E9733C00E2E611 /* CTUIKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ADDD2DD15E972F400E2E611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6ADDD2E015E972F400E2E611 /* Build configuration list for PBXProject "CTUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ADDD2DB15E972F400E2E611;
+			productRefGroup = 6ADDD2E715E972F400E2E611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADDD2E515E972F400E2E611 /* CTUIKit */,
+				6ADDD2F515E972F400E2E611 /* CTUIKitTests */,
+				6ADDD31315E9733C00E2E611 /* CTUIKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ADDD2F315E972F400E2E611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD30415E972F400E2E611 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDD31215E9733C00E2E611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD31F15E9733C00E2E611 /* InfoPlist.strings in Resources */,
+				6ADDD33015E9764700E2E611 /* SampleStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ADDD2F415E972F400E2E611 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ADDD2E215E972F400E2E611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD2F015E972F400E2E611 /* CTUIKit.m in Sources */,
+				6ADDD32C15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDD2F115E972F400E2E611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD30715E972F400E2E611 /* CTUIKitTests.m in Sources */,
+				6ADDD32D15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDD31015E9733C00E2E611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDD32115E9733C00E2E611 /* main.m in Sources */,
+				6ADDD32515E9733C00E2E611 /* CTAppDelegate.m in Sources */,
+				6ADDD32E15E9735300E2E611 /* CTNetworkActivityManager.m in Sources */,
+				6ADDD33315E976E100E2E611 /* CTSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ADDD2FD15E972F400E2E611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDD2E515E972F400E2E611 /* CTUIKit */;
+			targetProxy = 6ADDD2FC15E972F400E2E611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ADDD30215E972F400E2E611 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDD30315E972F400E2E611 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ADDD31D15E9733C00E2E611 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDD31E15E9733C00E2E611 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ADDD30815E972F400E2E611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ADDD30915E972F400E2E611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ADDD30B15E972F400E2E611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CTUIKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTUIKit/CTUIKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6ADDD30C15E972F400E2E611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CTUIKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTUIKit/CTUIKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6ADDD30E15E972F400E2E611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTUIKit/CTUIKit-Prefix.pch";
+				INFOPLIST_FILE = "CTUIKitTests/CTUIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6ADDD30F15E972F400E2E611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTUIKit/CTUIKit-Prefix.pch";
+				INFOPLIST_FILE = "CTUIKitTests/CTUIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		6ADDD32715E9733C00E2E611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTUIKitSample/CTUIKitSample-Prefix.pch";
+				INFOPLIST_FILE = "CTUIKitSample/CTUIKitSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ADDD32815E9733C00E2E611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTUIKitSample/CTUIKitSample-Prefix.pch";
+				INFOPLIST_FILE = "CTUIKitSample/CTUIKitSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ADDD2E015E972F400E2E611 /* Build configuration list for PBXProject "CTUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDD30815E972F400E2E611 /* Debug */,
+				6ADDD30915E972F400E2E611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDD30A15E972F400E2E611 /* Build configuration list for PBXNativeTarget "CTUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDD30B15E972F400E2E611 /* Debug */,
+				6ADDD30C15E972F400E2E611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ADDD30D15E972F400E2E611 /* Build configuration list for PBXNativeTarget "CTUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDD30E15E972F400E2E611 /* Debug */,
+				6ADDD30F15E972F400E2E611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ADDD32615E9733C00E2E611 /* Build configuration list for PBXNativeTarget "CTUIKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDD32715E9733C00E2E611 /* Debug */,
+				6ADDD32815E9733C00E2E611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ADDD2DD15E972F400E2E611 /* Project object */;
+}
